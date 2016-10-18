@@ -1,11 +1,10 @@
 # UIView-TNRAnimationHelper
-A category on UIView
+A category on `UIView`
 
 ##UIView Animation Helper 
+This is a **useful category on `UIView`** that contains practical animations: Rotation, Flip, Horizontal and Vertical Shake, Pulse.
 
-A **useful** category on `UIView` containing a set of most commonly used animations like rotation or flip and others.
-
-It is designed to be **as easy to use as possible to integrate and use** to speed up everyday development tasks. All the methods are well documented and described. 
+Designed simply and elegant these components are easy to integrate during development process. 
 
  - **Rotation**
 
