@@ -3,7 +3,7 @@
 //  Copyright (c) 2016 Thunderrise. All rights reserved.
 //
 //  Licensed under the MIT license: http://opensource.org/licenses/MIT
-//  Latest version can be found at https://github.com/...
+//  Latest version can be found at https://github.com/thunderrise/UIView-TNRAnimationHelper
 //
 
 #import <Foundation/Foundation.h>
