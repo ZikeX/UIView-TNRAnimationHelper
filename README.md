@@ -9,9 +9,9 @@ This is a **useful category on `UIView`** that contains practical animations: Ro
 
 Designed simply and elegant these components are easy to integrate during development process. 
 
-####Import `UIView+AnimationHelper.h` file
+####Import `UIView+TNRAnimationHelper.h` file
 
-    #import "UIView+AnimationHelper.h"
+    #import "UIView+TNRAnimationHelper.h"
 
  - **Rotation**
 
