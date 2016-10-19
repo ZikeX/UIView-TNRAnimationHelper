@@ -1,4 +1,7 @@
 # UIView-TNRAnimationHelper
+![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/thunderrise/UIView-TNRAnimationHelper/blob/master/LICENSE)
+
 A category on `UIView`
 
 ##UIView Animation Helper 
