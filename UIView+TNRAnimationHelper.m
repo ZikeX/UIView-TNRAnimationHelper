@@ -93,7 +93,7 @@
           autoreverse:(BOOL)shouldAutoreverse {
     CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
     
-    rotationAnimation.toValue = @(direction == UIViewAnimationRotationDirectionRight ? angle : -angle);
+    rotationAnimation.toValue = @(direction == UIViewAnimationRotationDirectionRight ?  angle * M_PI / 180.0 : - (angle * M_PI / 180.0));
     rotationAnimation.duration = duration;
     rotationAnimation.autoreverses = shouldAutoreverse;
     rotationAnimation.repeatCount = repeatCount;
