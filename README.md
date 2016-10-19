@@ -6,45 +6,54 @@ This is a **useful category on `UIView`** that contains practical animations: Ro
 
 Designed simply and elegant these components are easy to integrate during development process. 
 
+####Import `UIView+AnimationHelper.h` file
+
+    #import "UIView+AnimationHelper.h"
+
  - **Rotation**
 
 ![Rotation](images/rotation.gif)
+
+####Init animation Rotate
+
+    [self.animationView tnr_rotateToAngle:90
+             duration:4.0
+            direction:UIViewAnimationRotationDirectionRight
+          repeatCount:0
+          autoreverse:NO];
 
  - **Flip**
 
 ![Flip](images/flip.gif)
 
+####Init animation Flip
+		
+    [self.animationView tnr_flipWithDuration:2.0
+              direction:UIViewAnimationFlipDirectionFromLeft
+            repeatCount:1
+            autoreverse:NO];
+
  - **Horizontal and Vertical Shake**
 
 ![Shake](images/shake.gif)
+
+####Init animation Shake Horizontally
+ 
+ 	[self.animationView tnr_shakeHorizontally];
+	  
+####Init animation Shake Vertically
+
+	[self.animationView tnr_shakeVertically];
 
  - **Pulse**
 
 ![Pulse](images/pulse.gif)
 
+####Init animation Pulse
 
-Usage
------
-
-####Import `UIView+AnimationHelper.h` file
-
-    #import "UIView+AnimationHelper.h"
-
-####Init UIView
-
-    UIView *v = [UIView new];
-    v.backgroundColor = [UIColor redColor];
-    v.frame = CGRectMake (100, 100, 150, 150);
-    [self.view addSubview:v];
-		
-####Init animation
-		
-    [v flipWithDuration:2.0
-              direction:UIViewAnimationFlipDirectionFromLeft
-            repeatCount:1
-            autoreverse:NO];
-
-						
+    [self.animationView tnr_pulseToSize:2.0
+           duration:2.0
+             repeat:4]; 
 						
 ## License
 
