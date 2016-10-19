@@ -67,7 +67,7 @@ typedef NS_ENUM(NSUInteger, UIViewAnimationRotationDirection) {
 /**
  Performs a rotation animation of the view around its anchor point.
  
- @param angle - end angle of the rotation. Pass M_PI * 2.0 for full circle rotation.
+ @param angle - end angle of the rotation in degrees. 0° - 360°.
  @param duration - total time of the animation.
  @param direction - left or right direction of the rotation.
  @param repeatCount - number of repetitions of the animation. Pass HUGE_VALF to repeat forever.
