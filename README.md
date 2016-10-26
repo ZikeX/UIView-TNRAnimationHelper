@@ -3,6 +3,8 @@
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/thunderrise/UIView-TNRAnimationHelper/blob/master/LICENSE)
 
 ##UIView Animation Helper 
+[![Thunderrise](images/Made-in.png)](http://thunderrise.com/)
+
 This is a **useful category on `UIView`** that contains practical animations: Rotation, Flip, Horizontal and Vertical Shake, Pulse.
 
 Designed simply and elegant these components are easy to integrate during development process. 
